@@ -1,0 +1,11 @@
+[user]
+	email = agilsonaraujo2828@gmail.com
+	password = BOLSONARO1717a
+	name = agilsonaraujoo
+[core]
+	editor = \"C:\\Users\\USUARIO\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
